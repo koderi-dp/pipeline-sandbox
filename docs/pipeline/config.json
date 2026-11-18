@@ -5,6 +5,6 @@
   "checks": { "gate": "node --test" },
   "riskyPaths": [],
   "protectedPaths": [],
-  "merge": "pr",
+  "merge": "auto",
   "notify": "off"
 }
