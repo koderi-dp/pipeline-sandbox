@@ -1,7 +1,23 @@
 {
   "version": 1,
   "items": [
-    { "id": "p1", "title": "Clamp helper", "status": "ready", "size": "S", "spec": "docs/pipeline/specs/p1.md" },
-    { "id": "p2", "title": "Slugify helper", "status": "ready", "size": "S", "spec": "docs/pipeline/specs/p2.md" }
+    {
+      "id": "p1",
+      "title": "Clamp helper",
+      "status": "merged",
+      "size": "S",
+      "spec": "docs/pipeline/specs/p1.md",
+      "ledger": "docs/pipeline/ledgers/p1.json",
+      "branch": "feat/p1",
+      "updatedAt": "2026-11-18T15:27:16.708Z",
+      "pr": "#1"
+    },
+    {
+      "id": "p2",
+      "title": "Slugify helper",
+      "status": "ready",
+      "size": "S",
+      "spec": "docs/pipeline/specs/p2.md"
+    }
   ]
 }

@@ -1,0 +1,26 @@
+{
+  "item": "p1",
+  "pr": null,
+  "tasks": [],
+  "rulings": [],
+  "blockers": [],
+  "final": {
+    "verdict": "no review asked",
+    "gate": "green",
+    "commits": "793095c..8a3cec6"
+  },
+  "tokens": 0,
+  "branch": "feat/p1",
+  "worktree": ".claude/worktrees/p1",
+  "base": "793095c93e85",
+  "resume": {
+    "task": 1,
+    "state": "closed",
+    "lastVerified": "8a3cec6",
+    "at": "2026-11-18T15:27:16.762Z"
+  },
+  "lead": {
+    "tokens": 52090,
+    "cached": 157625
+  }
+}
