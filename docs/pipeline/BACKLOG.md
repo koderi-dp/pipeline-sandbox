@@ -2,14 +2,9 @@
 
 # Backlog
 
-## Active
-
-| Id | Title | Size | Needs | Note or PR |
-|---|---|---|---|---|
-| p2 | Slugify helper | S | | |
-
 ## Merged
 
 | Id | Title | Size | Needs | Note or PR |
 |---|---|---|---|---|
 | p1 | Clamp helper | S | | #1 |
+| p2 | Slugify helper | S | | #4 |
