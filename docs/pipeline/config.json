@@ -2,9 +2,12 @@
   "version": 1,
   "mainBranch": "main",
   "branch": "feat/<id>",
-  "checks": { "gate": "node --test" },
+  "checks": {
+    "gate": "node --test"
+  },
   "riskyPaths": [],
   "protectedPaths": [],
   "merge": "auto",
-  "notify": "off"
+  "notify": "off",
+  "queue": "github"
 }
