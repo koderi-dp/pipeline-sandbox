@@ -2,7 +2,7 @@
 
 # Backlog
 
-## Ready
+## Active
 
 | Id | Title | Size | Needs | Note or PR |
 |---|---|---|---|---|

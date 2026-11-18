@@ -1,0 +1,12 @@
+{
+  "item": "p2",
+  "pr": null,
+  "tasks": [],
+  "rulings": [],
+  "blockers": [],
+  "final": null,
+  "tokens": 0,
+  "branch": "feat/p2",
+  "worktree": ".claude/worktrees/p2",
+  "base": "e8cddf806688"
+}

@@ -15,9 +15,12 @@
     {
       "id": "p2",
       "title": "Slugify helper",
-      "status": "ready",
+      "status": "building",
       "size": "S",
-      "spec": "docs/pipeline/specs/p2.md"
+      "spec": "docs/pipeline/specs/p2.md",
+      "ledger": "docs/pipeline/ledgers/p2.json",
+      "branch": "feat/p2",
+      "updatedAt": "2026-11-18T15:27:19.092Z"
     }
   ]
 }
