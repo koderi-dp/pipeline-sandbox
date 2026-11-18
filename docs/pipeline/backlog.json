@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "items": [
+    { "id": "p1", "title": "Clamp helper", "status": "ready", "size": "S", "spec": "docs/pipeline/specs/p1.md" },
+    { "id": "p2", "title": "Slugify helper", "status": "ready", "size": "S", "spec": "docs/pipeline/specs/p2.md" }
+  ]
+}
