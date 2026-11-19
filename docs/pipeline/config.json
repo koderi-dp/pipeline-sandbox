@@ -9,5 +9,6 @@
   "protectedPaths": [],
   "merge": "auto",
   "notify": "off",
-  "queue": "github"
+  "queue": "github",
+  "mode": "direct"
 }
