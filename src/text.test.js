@@ -14,3 +14,8 @@ test('slugify empty', () => {
 test('reverse', () => {
   assert.equal(reverse('ab'), 'ba');
 });
+
+import { shout } from './text.js';
+test('shout', () => {
+  assert.equal(shout('hi'), 'HI!');
+});
