@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { slugify, reverse } from './text.js';
+import { slugify, reverse, shout } from './text.js';
 
 test('slugify trims and dashes', () => {
   assert.equal(slugify(' Hello, World! '), 'hello-world');
@@ -13,4 +13,7 @@ test('slugify empty', () => {
 });
 test('reverse', () => {
   assert.equal(reverse('ab'), 'ba');
+});
+test('shout', () => {
+  assert.equal(shout('hi'), 'HI!');
 });
