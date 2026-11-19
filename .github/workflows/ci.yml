@@ -1,8 +1,11 @@
 name: ci
 on:
   pull_request:
+    # Text cannot break the tests.
+    paths-ignore: ["**/*.md", "docs/**", "LICENSE"]
   push:
     branches: [main]
+    paths-ignore: ["**/*.md", "docs/**", "LICENSE"]
 concurrency:
   group: ci-${{ github.ref }}
   cancel-in-progress: true
