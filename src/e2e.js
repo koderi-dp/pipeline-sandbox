@@ -1,2 +1,2 @@
 // Rewritten by the pipeline plugin's end-to-end tests.
-export const stamp = '20261119T194442-next'
+export const stamp = '20261119T195553-full'
