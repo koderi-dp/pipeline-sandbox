@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { slugify, reverse } from './text.js';
+import { slugify, reverse, capitalize } from './text.js';
 
 test('slugify trims and dashes', () => {
   assert.equal(slugify(' Hello, World! '), 'hello-world');
@@ -13,4 +13,10 @@ test('slugify empty', () => {
 });
 test('reverse', () => {
   assert.equal(reverse('ab'), 'ba');
+});
+test('capitalize first letter', () => {
+  assert.equal(capitalize('hello'), 'Hello');
+});
+test('capitalize empty', () => {
+  assert.equal(capitalize(''), '');
 });
