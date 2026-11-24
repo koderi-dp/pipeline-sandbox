@@ -20,3 +20,7 @@ test('capitalize first letter', () => {
 test('capitalize empty', () => {
   assert.equal(capitalize(''), '');
 });
+test('capitalize leaves the rest unchanged', () => {
+  assert.equal(capitalize('hELLO'), 'HELLO');
+  assert.equal(capitalize('hello World'), 'Hello World');
+});
