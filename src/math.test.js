@@ -11,4 +11,8 @@ test('isEven', () => {
   assert.equal(isEven(4), true)
   assert.equal(isEven(7), false)
   assert.equal(isEven(0), true)
+  assert.equal(isEven(-4), true)
+  assert.equal(isEven(-0), true)
+  assert.equal(isEven(-7), false)
+  assert.equal(isEven(2), true)
 })
