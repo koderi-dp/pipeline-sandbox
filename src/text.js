@@ -5,3 +5,8 @@ export function slugify(s) {
 export function reverse(s) {
   return Array.from(String(s)).reverse().join('');
 }
+
+export function shout(s) {
+  const str = String(s);
+  return str === '' ? '' : str.toUpperCase() + '!';
+}
